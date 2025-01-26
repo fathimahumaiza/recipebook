@@ -1,0 +1,214 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+/* Navbar Styling */ 
+
+nav{
+    background-color: black;
+    color:white;
+    padding:10px; 
+}
+
+    li,h3,ul{
+        display:inline;
+
+    }
+    ul{
+        margin-left:40%;
+    }
+
+    li{
+        color:gray;
+    }
+    
+    li:hover{
+        color:white;
+        cursor: pointer;
+    }
+
+
+
+/* .navbar {
+    padding: 1rem 0;
+    margin-bottom: 30px;
+    background-color: black;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #007bff;
+}
+
+.navbar-nav .nav-item a:hover {
+    color: #0056b3;
+} */
+
+/* Search Section */
+.input-group {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.input-group input {
+    border-radius: 20px 0 0 20px;
+}
+
+.input-group .btn {
+    border-radius: 0 20px 20px 0;
+}
+
+/* Featured Recipe */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} 
+
+.card:hover {
+    transform: scale(1.02);
+    transition: transform 0.2s;
+}
+
+.card-img-top {
+    border-radius: 10px;
+    max-height: 400px;
+    object-fit: cover;
+} 
+
+/* Recipe Cards */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #555;
+}
+
+/* Categories */
+button {
+    font-size: 1.1rem;
+    border-radius: 20px;
+    padding: 10px 25px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Footer */
+footer {
+    background-color: #e9ecef;
+    color: #6c757d;
+    border-top: 1px solid #e9ecef;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Form */
+.form-label {
+    font-weight: bold;
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+#recipes .recipe {
+    border: 1px solid #ddd;
+    margin: 1rem auto;
+    padding: 1rem;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#recipes .recipe button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#recipes .recipe button:hover {
+    background: #555;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+

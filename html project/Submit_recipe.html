@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Recipe Vault - Submit Recipe</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    
+    <div class="header"> 
+        <nav>
+            <h3>My Recipe Vault </h3>
+            <ul>
+                <li><a href="Home_page.html">Home |</a></li>
+                <li><a href="Explore _recipes _page.html">Explore Recipes |</a></li>
+                <li><a href="Submit_recipe.html">Submit Recipe |</a></li>
+                <li><a href="Favorite_section.html">Favourite Section |</a></li>
+            </ul>
+            
+        </nav>
+
+    </div>
+
+    <!-- Submit Recipe Form -->
+    <div class="container my-5">
+        <h1 class="text-center">Submit Your Recipe</h1>
+        <form id="recipeForm">
+            <div class="mb-3">
+                <label for="recipeName" class="form-label">Recipe Name</label>
+                <input type="text" class="form-control" id="recipeName" required>
+            </div>
+            <div class="mb-3">
+                <label for="ingredients" class="form-label">Ingredients</label>
+                <textarea class="form-control" id="ingredients" rows="3" required></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="instructions" class="form-label">Instructions</label>
+                <textarea class="form-control" id="instructions" rows="5" required></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="uploadImage" class="form-label">Upload Image</label>
+                <input type="file" class="form-control" id="uploadImage">
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="reset" class="btn btn-secondary">Reset</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

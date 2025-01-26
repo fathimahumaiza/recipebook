@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Recipe Vault - Explore</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+</head>
+<body>
+    
+
+    <div class="header"> 
+        <nav>
+            <h3>My Recipe Vault </h3>
+            <ul>
+                <li><a href="Home_page.html">Home |</a></li>
+                <li><a href="Explore _recipes _page.html">Explore Recipes |</a></li>
+                <li><a href="Submit_recipe.html">Submit Recipe |</a></li>
+                <li><a href="Favorite_section.html">Favourite Section |</a></li>
+            </ul>
+            
+        </nav>
+
+    </div>
+
+    <!-- Filters -->
+    <div class="container my-5">
+        <h1 class="text-center">Explore Recipes</h1>
+        <div class="my-3">
+            <label for="filter" class="form-label">Filter by Category:</label>
+            <select id="filter" class="form-select">
+                <option value="all">All</option>
+                <option value="category1">Category 1</option>
+                <option value="category2">Category 2</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- Recipe Cards -->
+    <div class="container">
+        <div class="row g-4" id="recipe-cards">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Fried-Rice.png" class="card-img-top" alt="Recipe 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Chicken Fried Rice</h5>
+                        <p class="card-text">Chicken fried rice is a flavorful and satisfying dish </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="dessert.png" class="card-img-top" alt="Recipe 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Recipe Title</h5>
+                        <p class="card-text">Short description...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Load More Button -->
+    <div class="text-center my-4">
+        <button class="btn btn-primary" id="load-more-btn">Load More Recipes</button>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
